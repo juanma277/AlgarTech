@@ -13,7 +13,7 @@ class CategoriesTableSeeder extends Seeder
     {
         for ($i=0; $i < 13 ; $i++) { 
             DB::table('categories')->insert([
-                'name' => Str::random(10),
+                'name' => str_random(10)
             ]);
         }
     }
