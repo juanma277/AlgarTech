@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        AlgarTech\Providers\AppServiceProvider::class,
+        AlgarTech\Providers\AuthServiceProvider::class,
+        // AlgarTech\Providers\BroadcastServiceProvider::class,
+        AlgarTech\Providers\EventServiceProvider::class,
+        AlgarTech\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -16,3 +16,7 @@ use Illuminate\Http\Request;
 Route::resource('/categories', 'CategoriesApiController')->except([
     'create', 'edit',
 ]);
+
+Route::resource('/clients', 'ClientsApiController')->except([
+    'create', 'edit',
+]);

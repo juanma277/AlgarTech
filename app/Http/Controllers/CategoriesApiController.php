@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace AlgarTech\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator, DB;
-use App\Categorie;
+use AlgarTech\Categorie;
 
 class CategoriesApiController extends Controller
 {

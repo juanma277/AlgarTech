@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace AlgarTech;
 
 use Illuminate\Database\Eloquent\Model;
 

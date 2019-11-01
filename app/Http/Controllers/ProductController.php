@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace AlgarTech\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Product;
-use App\Categorie;
+use AlgarTech\Product;
+use AlgarTech\Categorie;
 use Validator, DB;
 use Session;
 
